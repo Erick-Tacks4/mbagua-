@@ -1,0 +1,101 @@
+:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    background-color: brown;
+    color: black;
+}
+a:active{
+    color: red;
+}
+
+section{
+    background: rgb(114, 34, 34);
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+section ul{
+    position: relative;
+    display: flex;
+    float: inline-end;
+}
+
+section ul li{
+    margin: 4px;
+    padding: 3px;
+    list-style: none;
+}
+
+section ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.main{
+    margin: 0px;
+    width: 100%;
+    position: relative;
+}
+
+.main .heds{
+    margin: auto;
+    width: 35%;
+}
+
+.main .heds p{
+    margin: 8px;
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 4px;
+    border-bottom: 2px solid rgb(1, 1, 27);
+}
+
+.main .heds p span{
+    margin-right: 3px;
+    font-weight: lighter;
+    font-size: 1.8em;
+    color: #03023a;
+}
+
+.main .gfirst{
+    margin: 0px;
+    width: 100%;
+    border: 1px solid #03023a;
+    display: inline-block;
+}
+
+.main .gfirst ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main .gfirst ul li{
+    margin: 0px 0px 3px 4px;
+    padding: 4px;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+}
+
+li p{
+    display: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+li:hover p{
+    display: block;
+}

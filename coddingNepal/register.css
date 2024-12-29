@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(240, 221, 193);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 100%;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    background-color: brown;
+    color: black;
+}
+a:active{
+    color: red;
+}
+
+
+section{
+    background-color: rgb(116, 99, 6);
+    display: inline-block;
+    width: 100%;
+}
+
+section .nav{
+    display: inherit;
+    width: 100%;
+    
+}
+
+section .nav ul{
+    margin: 5px;
+    padding: 10px;
+    display:flex;
+    flex-wrap: nowrap;
+    float: inline-end;
+    
+}
+
+section .nav ul li{
+    list-style: none;
+    margin: 8px;
+    display: block;
+}
+
+section .nav ul li a{
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+p{
+    background-color: rgb(44, 27, 2);
+    padding: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+p span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-shadow: 2px red;
+    color: #f07373;
+}
+
+.bigELement{
+    display: flex;
+    justify-content: center;
+}
+
+.bigELement .middle{
+    margin: 10px;
+    width: 100%;
+}
+
+.bigELement .middle fieldset{
+    margin: 5px;
+    border: 2px solid rgb(65, 48, 65);
+    border-radius: 5%;
+}
+
+.bigELement .middle fieldset legend{
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.bigELement .middle fieldset label{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #581a1a;
+}
+
+.bigELement .middle fieldset input{
+    margin: 10px;
+    border: none;
+}
+
+.bigELement .middle fieldset .mine{
+    padding: 10px;
+    width: 70%;
+    border-bottom: 2px solid  rgb(65, 48, 65);
+    border-radius: 5%;
+    opacity: 0.8;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.bigELement .middle fieldset select{
+    margin: 4px;
+    padding: 10px;
+    width: 70%;
+    border: 2px solid  rgb(65, 48, 65);
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 8%;
+}
+
+#submit{
+    margin: 10px;
+    padding: 10px;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgb(147, 166, 167);
+    border: 2px solid rgb(39, 16, 39);
+    border-style: inset;
+    border-radius: 25%;
+}
+
+#submit:hover{
+    font-size: 1.8em;
+    color: #fff;
+    background-color: rgb(39, 24, 2);
+    cursor: pointer;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <section>
+        <div class="nav">
+            <ul>
+                <li><a href="learn.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="feedback.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <p>
+        <marquee><span>THANK YOU</span> FOR CONCEDERING TO REGISTER WITH US. JUST FEW STEPS AND YOU WILL BE DONE.</marquee>
+    </p>
+
+    <div class="bigELement">
+
+        <div class="middle">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>PERSONAL DETAILS: </legend>
+                    <label for="fname">FIRST NAME:</label><br>
+                    <input type="text" name="fname" placeholder="Enter your first name" class="mine"><br><br>
+
+                    <label for="sname">SIR NAME:</label><br>
+                    <input type="text" name="sname" placeholder="Enter your sir name" class="mine"><br><br>
+
+                    <label for="mail">EMAIL:</label><br>
+                    <input type="email" name="mail" placeholder="Enter your email" class="mine"><br><br>
+
+                    <label for="number">PHONE NUMBER:</label><br>
+                    <input type="number" name="number" placeholder="Enter your phone number" class="mine"><br><br>
+                    <label for="date">DATE OF BIRTH:</label><br>
+                    <input type="date" name="date" id="date" class="mine"><br><br>
+                    <label for="gender">SELECT GENDER:</label> <br>
+                    <input type="radio" name="gender">MALE <br>
+                    <input type="radio" name="gender">FEMALE <br><br>
+
+                    <label for="somo">LEVEL OF EDUCATION:</label><br>
+                    <input type="radio" name="somo">DEGREE <br>
+                    <input type="radio" name="somo">DIPLOMA <br>
+                    <input type="radio" name="somo">SECONDARY <br>
+                    <input type="radio" name="somo">PRIMARY
+                </fieldset>
+            </form>
+
+        </div>
+
+        <div class="middle">
+            <form action="">
+                <fieldset>
+                    <legend>OTHER DETAILS: </legend>
+                    <P>
+                        Select your Nationality:
+                    </P>
+                    <select name="nation" id="nation">
+                        <option value="kenya">KENYA</option>
+                        <option value="tanzania">TANZANIA</option>
+                        <option value="uganda">UGANDA</option>
+                        <option value="rwanda">RWANDA</option>
+                        <option value="burundi">BURUNDI</option>
+                    </select>
+                    <br><br>
+
+                    <label for="status">STATUS</label><br>
+                    <input type="radio" name="status">SINGLE <br>
+                    <input type="radio" name="status">MARRIED <br>
+                    <input type="radio" name="status">DIVORCED <br>
+                    <input type="radio" name="status">SPOUSE DIED <br><br>
+
+                    <label for="lang">LANGUAGE:</label><br>
+                    <input type="checkbox" name="lang">ENGLISH <br>
+                    <input type="checkbox" name="lang">KISWAHILI <br><br>
+
+                    <label for="job">OCCUPATION</label><br>
+                    <input type="text" name="job" placeholder="Enter your occupation" class="mine"><br><br>
+
+                    <label for="religion">RELIGION:</label><br>
+                    <input type="radio" name="religion">CHRISTIAN <br>
+                    <input type="radio" name="religion">ISLAM <br>
+                    <input type="radio" name="religion">HINDU <br>
+                    <input type="radio" name="religion">ETHIEST <br>
+                    
+                </fieldset>
+
+                <input type="submit" id="submit">
+
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

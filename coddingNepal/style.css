@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("C:\Users\ADMIN\Downloads\coddingNepal\Images\1.jpg");
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: #fff;
+}
+
+a:active{
+    color: chocolate;
+}
+
+.header{
+    background: rgb(24, 24, 23);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.header .logo{
+    margin-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.header .logo span{
+    font-weight: lighter;
+}
+    
+.header .nav{
+    display: inherit;
+    position: relative;
+    float: inline-end;
+}
+
+.header .nav ul{
+    display: flex;
+}
+
+.header .nav ul li{
+    margin: 5px;
+    padding: 3px;
+    list-style: none;
+}
+
+.header .nav ul li:hover{
+    background-color: black;
+}
+
+.header .nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 3px;
+}

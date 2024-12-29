@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+
+    <section  class="sec">
+        <ul class="unodered">
+            <li><a href="learn.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+        </ul>
+    </section>
+
+    <form action="">
+        <fieldset class="set">
+            <legend>TYPE YOUR FEEDBACK HERE:</legend>
+            <select class="drop">
+                <option value="kenya" checked="checked">KENYA</option>
+                <option value="rwanda">RWANDA</option>
+                <option value="burundi">BURUNDI</option>
+                <option value="tanzania">TANZANIA</option>
+                <option value="uganda">UGANDA</option>
+            </select>
+            <p>
+                Select your Gender below:<br>
+                <input type="radio" name="male" value="MALE" checked="checked"> MALE <br>
+                <input type="radio" name="male" value="FEMALE"> FEMALE
+            </p>
+            <p class="text">
+                <textarea name="txt" id="txt" rows="10" cols="100%" placeholder="Write your feedback here..."></textarea>
+            </p>
+        </fieldset>
+        <input class="submit" type="submit">
+    </form>
+</body>
+</html>
